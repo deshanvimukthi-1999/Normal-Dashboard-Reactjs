@@ -1,0 +1,74 @@
+.userContainer {
+  margin: 20px;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.user-card {
+  width: 100%;
+  height: 300px;
+  perspective: 1000px;
+  margin-right: 50px;
+  margin-left: 40px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.user-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Do an horizontal user when you move the mouse over the user box container */
+.user-card:hover .user-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.user-card-front,
+.user-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.user-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.user-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.userTitle {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  font-size: 20px;
+}
+.userF {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.rate {
+  width: 100%;
+  height: 100%;
+}

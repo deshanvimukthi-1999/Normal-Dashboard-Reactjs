@@ -1,0 +1,71 @@
+.tableFood {
+  flex: 1;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.tableFoodTitle {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.tableFoodImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.tableFoodList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tableFoodListItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.tableFoodUser {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.tableFoodUsername {
+  font-weight: 600;
+  align-items: center;
+  display: flex;
+}
+
+.tableFoodUserTitle {
+  font-weight: 300;
+}
+
+.tableFoodButton {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 10px;
+  background-color: #eeeef7;
+  color: #555;
+  cursor: pointer;
+}
+
+.tableFoodListItem.active,
+.tableFoodListItem:hover,
+.tableFoodButton.active,
+.tableFoodButton:hover {
+  background-color: rgb(236, 231, 229);
+}
+
+.tableFoodIcon {
+  font-size: 16px !important;
+  margin-right: 5px;
+}

@@ -1,0 +1,59 @@
+.hey1 {
+  align-items: center;
+  position: relative;
+  float: right 390px;
+  margin-left: 393px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(216, 173, 87);
+  padding: 20px;
+  flex: 1;
+  position: sticky;
+}
+.feature {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.featureItem {
+  flex: 1;
+  margin: 0px 20px;
+  padding: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+.featureTitle {
+  font-size: 20px;
+}
+
+.featureMoney {
+  margin: 10px opx;
+  display: flex;
+  align-items: center;
+}
+.Money {
+  font-size: 30px;
+  font-weight: 600;
+}
+.moneyRate {
+  display: flex;
+  align-items: center;
+  margin-left: 90px;
+  margin-bottom: 40px;
+  border-radius: 10;
+}
+.featureIcon {
+  font-size: 14px;
+  margin-left: 5px;
+  color: greenyellow;
+}
+
+.featureIcon.negative {
+  color: red;
+}
+.featureSub {
+  font-size: 15px;
+  color: gray;
+}

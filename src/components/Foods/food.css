@@ -1,0 +1,67 @@
+.f {
+  margin: 20px;
+  padding: 30px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+.fTitle {
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.food {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.foodItem {
+  flex: 1;
+  margin: 0px 20px;
+  padding: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+.foodTitle {
+  font-size: 20px;
+}
+
+.foodMoney {
+  margin: 10px opx;
+  display: flex;
+  align-items: center;
+}
+.foodName {
+  font-size: 20px;
+  font-weight: 500;
+}
+.moneyRate {
+  align-items: center;
+  margin-left: 90px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.foodIcon {
+  font-size: 14px;
+  margin-left: 5px;
+  color: greenyellow;
+}
+
+.foodIcon.negative {
+  color: red;
+}
+.foodSub {
+  font-size: 15px;
+  color: gray;
+}
+.foodSub1 {
+  font-size: 15px;
+  color: gray;
+  margin-left: 80px;
+}
+.img1 {
+  height: 140px;
+  width: 230px;
+}

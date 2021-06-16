@@ -1,0 +1,58 @@
+.sidebar {
+  flex: 3;
+  height: 100vh;
+  background-color: rgb(251, 251, 255);
+  position: sticky;
+  justify-content: center;
+  top: 5%;
+  z-index: 999;
+}
+
+.sidebarWrapper {
+  padding: 20px;
+  color: rgb(102, 45, 45);
+}
+
+.sidebarMenu {
+  margin-bottom: 10px;
+}
+
+.sidebarTitle {
+  font-size: 18px;
+  color: rgb(20, 18, 18);
+  margin-left: -2px;
+}
+
+.sidebarList {
+  list-style: none;
+  padding: 3px;
+}
+
+.sidebarListItem {
+  padding: 7px;
+  cursor: pointer;
+  display: flex;
+  border-radius: 3px;
+  margin-right: 80px;
+  font-family: "Courier New", Courier, monospace;
+  height: 30px;
+}
+
+.sidebarTitle.active,
+.sidebarTitle:hover,
+.sidebarListItem.active,
+.sidebarListItem:hover {
+  background-color: rgb(240, 240, 255);
+  border-left: 4px solid;
+  cursor: pointer;
+}
+
+.sidebarIcon {
+  margin-right: 5px;
+  font-size: 12px !important;
+}
+
+.link {
+  text-decoration: navajowhite;
+  padding-left: 13;
+}
