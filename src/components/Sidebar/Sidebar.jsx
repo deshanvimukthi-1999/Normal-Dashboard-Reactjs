@@ -2,7 +2,6 @@ import "./sidebar.css";
 import {
     Dashboard, RestaurantMenu, ShoppingCart, List, Receipt
 } from '@material-ui/icons';
-
 import { Link } from "react-router-dom";
 
 export default function Sidebar() {
